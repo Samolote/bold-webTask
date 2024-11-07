@@ -1,0 +1,13 @@
+.image-wrapper {
+  display: inline-block;
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+  overflow: hidden;
+
+  .image {
+    max-width: 100%;
+    height: auto;
+    object-fit: var(--objectFit);
+  }
+}
